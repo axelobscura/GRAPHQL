@@ -1,4 +1,5 @@
-import { message, name } from './myModule'
+import location, {message, name} from './myModule'
 
 console.log(message);
 console.log(name)
+console.log(location);
