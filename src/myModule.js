@@ -5,7 +5,11 @@ const name = "Axel"
 
 const location = "Chicago"
 
-export { message, name, location as default }
+const getGreeting = (name) => {
+  return `Welcome to the jungle - ${name}` 
+}
+
+export { message, name, getGreeting, location as default }
 
 
 
